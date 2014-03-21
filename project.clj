@@ -9,6 +9,7 @@
   :repositories [["conjars.org" "http://conjars.org/repo"]]
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [cascalog "1.10.0"]
-                 [cascalog-more-taps "0.3.1-SNAPSHOT"]
-                 [org.slf4j/slf4j-api "1.7.2"]
-                 [org.apache.hadoop/hadoop-core "0.20.2"]])
+                 [cascalog-more-taps "0.3.0"]
+                 [org.slf4j/slf4j-api "1.7.6"]
+                 [org.apache.hadoop/hadoop-core "1.2.1"]]
+  :jvm-opts ["-Xms512m" "-Xmx1024m"])
