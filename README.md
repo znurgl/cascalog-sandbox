@@ -12,6 +12,10 @@ Playing with NHS data set.
 
 `lein run /tmp/T201311PDPI+BNFT.CSV /tmp/output`
 
+Brave and power users:
+
+`hadoop jar ./target/cascalogsandbox.jar /tmp/T201311PDPI+BNFT.CSV /tmp/output`
+
 ## License
 
 Copyright © 2014 FIXME

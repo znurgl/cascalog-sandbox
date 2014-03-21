@@ -1,7 +1,8 @@
-(ns cascalog-sandbox.core
+(ns cascalogsandbox.core
 	(:require [cascalog.api :refer :all]
-	         [cascalog.ops :as ops]
-	         [cascalog.more-taps :refer [hfs-delimited]]))
+           [cascalog.ops :as ops]
+           [cascalog.more-taps :refer [hfs-delimited]])
+ (:gen-class :main true))
 
 ;;; helper String parser function for parse-number function
 
